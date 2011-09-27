@@ -8,11 +8,11 @@
 	switch (strtolower($strAction))
 	{
 		case 'getlist':			if ($strTargetFile == 'foodlist')				$strFileOpen = 'FileFoodFile';			else 				$strFileOpen = 'FileEatFile';			
-			$Handler = fopen($$strFileOpen, "r");			while (!feof($Handler)) 			{ 				$Data = fgets($Handler, 256); 				print $Data; 			} 
+			$Handler = fopen($$strFileOpen, "r");			while (!feof($Handler)) 			{ 				$Data = fgets($Handler); 				print $Data; 			} 
 			break;
 		case 'writelog':
-			$Handler = fopen($FileEatFile, "a");			while($strBuffer = fgets($Handler) !== false){				$strData .= $strBuffer;			}			$objWriteList = json_decode($strData);			var_dump($objWriteList);
-			fwrite($Handler, $_GET['data']);
+			$Handler = fopen($FileEatFile, "w");
+			fwrite($Handler, str_replace('\\','',$_GET['data']));
 			break;
 	}
 	

@@ -1,2 +1,1 @@
-{"eatlist": [{"date":"","id":""}
-]}
+{"eatlist":[{"date":"","id":""},{"date":"2011-9-27","id":"nasi kandar kayu"}]}
