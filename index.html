@@ -11,6 +11,10 @@
 			$('#selectFood').click(function(){
 				$('#tracker').foodTracker('selectFood');
 			});
+			$('#reSelectFood').click(function(){
+				//pass variable
+				$('#tracker').foodTracker('selectFood',true);
+			});
 		});
 	</script>
 	<link rel="stylesheet" type="text/css" href="./lib/style.css" />
@@ -21,6 +25,7 @@
 	</div>
 	<div style="clear:both;"></div>
 	<input type="button" value="Select Food" id="selectFood" style="margin-top:10px;" />
+	<input type="button" value="Reselect Food" id="reSelectFood" style="margin-top:10px;" />
 	<p class="footer"><a href="https://github.com/bugpanye/FoodTracker">GitHub page</a></p>
 </body>
 </html>
