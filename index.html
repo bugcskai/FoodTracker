@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title>Food Tracer 1.0</title>
+	<script type="text/javascript" src="./lib/jquery.js"></script>
+	<script type="text/javascript" src="./lib/jquery.foodtracker.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#tracker').foodTracker();
+			$('#selectFood').click(function(){
+				$('#tracker').foodTracker('selectFood');
+			});
+		});
+	</script>
+</head><body>
+	<h1>Food Tracer 1.0</h1>
+	<p>Inspired by uninspired lunch breaks.</p>
+	<div id="tracker">
+		
+	</div>
+	<input type="button" value="Select Food" id="selectFood" />
+</body>
+</html>

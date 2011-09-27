@@ -1,0 +1,4 @@
+{"foodlist":[
+{"name":"nasi kandar kayu","pic":"/pic/kayu.png","desc":"one of the selection you may like"},
+{"name":"super tanker","pic":"/pic/tanker.png","desc":"plenty of hawker food"}
+]}
