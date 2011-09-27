@@ -1,0 +1,10 @@
+body {font-size: 76%; font-family:verdana;}
+
+legend{font-size: 1.5em;font-weight:bold;}
+.wrapcontainer {font-size: 1.3em;}
+
+.selected {background-color:#E6F1F6;border:1px solid #999; padding: 5px;text-align:center;}
+.wrapcontainer{background-color:#ccc; padding:15px; width: 200px; float:left; border: 1px solid #000; margin:15px;}
+.wrapcontainer-selected{background-color:#4183C4; color:#fff; font-weight:bold;}
+
+.footer {font-size:0.8em;font-style:italic;color:#999;}

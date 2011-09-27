@@ -1,4 +1,8 @@
 {"foodlist":[
-{"name":"nasi kandar kayu","pic":"/pic/kayu.png","desc":"one of the selection you may like"},
-{"name":"super tanker","pic":"/pic/tanker.png","desc":"plenty of hawker food"}
+{"name":"Nasi Kandar Kayu","pic":"/pic/kayu.png","desc":"one of the selection you may like","id":"kayunk"},
+{"name":"Super Tanker","pic":"/pic/tanker.png","desc":"plenty of hawker food","id":"tanker"},
+{"name":"Sunshine Foodcourt","pic":"","desc":"plenty of hawker food","id":"sunshinemkt"},
+{"name":"Sg. Nibong Keow Teow Teng","pic":"","desc":"plenty of hawker food","id":"sgnbgktt"},
+{"name":"Relau 经济饭","pic":"","desc":"plenty of hawker food","id":"relau"},
+{"name":"Banana Leaf Restaurant","pic":"","desc":"plenty of hawker food","id":"bnnlft"}
 ]}
