@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Food Tracer 1.0</title>
+	<title>Food Tracer</title>
 	<script type="text/javascript" src="./lib/jquery.js"></script>
 	<script type="text/javascript" src="./lib/jquery.foodtracker.js"></script>
 	<script type="text/javascript" src="./lib/json2.js"></script>
@@ -15,11 +15,12 @@
 				//pass variable
 				$('#tracker').foodTracker('selectFood',true);
 			});
+			$('#version').html($('#tracker').foodTracker.version)
 		});
 	</script>
 	<link rel="stylesheet" type="text/css" href="./lib/style.css" />
 </head><body>
-	<h1>Food Tracer 1.0</h1>
+	<h1>Food Tracker <span id="version"></span></h1>
 	<p>Inspired by uninspired lunch breaks. Random your lunch!</p>
 	<div id="tracker">
 	</div>
